@@ -1,0 +1,12 @@
+{
+  "Type" : "UnsubscribeConfirmation",
+  "MessageId" : "47138184-6831-46b8-8f7c-afc488602d7d",
+  "Token" : "2336412f37fb687f5d51e6e241d09c805a5a57b30d712f7948a98bac386edfe3e10314e873973b3e0a3c09119b722dedf2b5e31c59b13edbb26417c19f109351e6f2169efa9085ffe97e10535f4179ac1a03590b0f541f209c190f9ae23219ed6c470453e06c19b5ba9fcbb27daeb7c7",
+  "TopicArn" : "arn:aws:sns:us-east-1:123456789012:MyTopic",
+  "Message" : "You have chosen to deactivate subscription arn:aws:sns:us-east-1:123456789012:MyTopic:2bcfbf39-05c3-41de-beaa-fcfcc21c8f55.\nTo cancel this operation and restore the subscription, visit the SubscribeURL included in this message.",
+  "SubscribeURL" : "http://www.google.com",
+  "Timestamp" : "2012-04-26T20:06:41.581Z",
+  "SignatureVersion" : "1",
+  "Signature" : "EXAMPLEHXgJmXqnqsHTlqOCk7TIZsnk8zpJJoQbr8leD+8kAHcke3ClC4VPOvdpZo9s/vR9GOznKab6sjGxE8uwqDI9HwpDm8lGxSlFGuwCruWeecnt7MdJCNh0XK4XQCbtGoXB762ePJfaSWi9tYwzW65zAFU04WkNBkNsIf60=",
+  "SigningCertURL" : "https://sns.us-east-1.amazonaws.com/SimpleNotificationService-f3ecfb7224c7233fe7bb5f59f96de52f.pem"
+}

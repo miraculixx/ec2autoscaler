@@ -1,0 +1,16 @@
+KASDIR=`dirname $0`
+export KAS_BASE=~/kooaba-worker
+export KAS_SERVER=$KASDIR/../src/server.py
+export KAS_ADMIN=$KASDIR/../src/admin.py
+export KAS_PORT=30000
+export KAS_PORT_INTERNAL=30001
+export KAS_NUMCONN=700
+export KAS_IP=ohho4oop-1996069.eu-west-1.elb.amazonaws.com
+export KAS_KEY=OhHo4oop
+export KAS_KEYFILTER=$KAS_KEY
+export KAS_SNS_TOPIC=autoscale-OhHo4oop
+export KAS_SNS_TOPIC_ARN=arn:aws:sns:eu-west-1:237471159969:autoscale-OhHo4oop
+export KAS_SCALER_PORT=10000
+export KAS_SCALER_PORT_INTERN=10001
+export KAS_ALARM_CPUTHRES=35.0:70.0
+export KAS_WATCH_PERIOD=60

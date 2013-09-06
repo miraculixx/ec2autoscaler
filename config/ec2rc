@@ -1,0 +1,18 @@
+# see http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/SettingUp_CommandLine.html
+export JAVA_HOME=/usr
+export EC2_HOME=/opt/ec2-api-tools-1.6.6.3
+export PATH=$PATH:$EC2_HOME/bin
+
+# EC2 setup 
+export AWS_ACCESS_KEY=your access key
+export AWS_SECRET_KEY=the secret key
+export EC2_URL=https://ec2.eu-west-1.amazonaws.com
+export EC2_PRIVATE_KEY=/home/patrick/config/OhHo4oop.epm
+export EC2_LB_AZ=eu-west-1a
+
+# EC2 python API setup (boto)
+export AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY
+export AWS_SECRET_ACCESS_KEY=$AWS_SECRET_KEY
+export AWS_DEFAULT_REGION=eu-west-1
+export AWS_DEFAULT_AMI=ami-c1aaabb5
+export AWS_CW_ENDPOINT=monitoring.eu-west-1.amazonaws.com
